@@ -49,6 +49,21 @@ public class ReverseString {
     }
 
 
+    public static void testingReverseOperation(){
+        
+        int size = 10;
+
+        
+        char[] letters = ReverseString.generateInput(size);
+
+        System.out.println("Input Array: ");
+        ReverseString.print(letters);
+
+        System.out.println("\nOutput Array: ");
+        ReverseString.reverse(letters);
+        ReverseString.print(letters);
+    }
+
     /**
      * Display contents of char array
      */
