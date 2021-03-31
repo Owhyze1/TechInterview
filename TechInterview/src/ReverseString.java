@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class ReverseString {
 
-    private char[] characters;
 
     /**
      * Write a function that reverses a string. The input string is given as an array of characters s.
@@ -53,7 +52,7 @@ public class ReverseString {
         
         int size = 10;
 
-        
+
         char[] letters = ReverseString.generateInput(size);
 
         System.out.println("Input Array: ");
